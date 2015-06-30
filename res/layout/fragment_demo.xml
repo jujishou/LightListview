@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.sniper.lightListview.ui.component.PageListView
+            android:id="@+id/listview_question_answer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dip"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:focusable="false"
+            android:listSelector="@android:color/transparent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
