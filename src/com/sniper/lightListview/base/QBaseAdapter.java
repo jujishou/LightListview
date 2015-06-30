@@ -26,8 +26,8 @@ public class QBaseAdapter<T> extends BaseAdapter {
 
 	/**
 	 * 
-	 * @param context
-	 * @param dataList
+	 * @param context the current actvity or fragment
+	 * @param dataList the source data of listview
 	 * @param cellId
 	 *            cell id in res
 	 * @param holderListener

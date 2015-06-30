@@ -16,7 +16,7 @@ import com.sniper.lightListview.base.BaseCellHolder;
 import com.sniper.lightListview.base.QBaseAdapter;
 import com.sniper.lightListview.base.QBaseAdapter.CreateHolderListener;
 import com.sniper.lightListview.entity.DemoModel;
-import com.sniper.lightListview.ui.cellHolder.AnswerCellHolder;
+import com.sniper.lightListview.ui.cellHolder.DemoCellHolder;
 import com.sniper.lightListview.ui.component.LoadingFooter;
 import com.sniper.lightListview.ui.component.OnLoadNextListener;
 import com.sniper.lightListview.ui.component.PageListView;
@@ -53,7 +53,7 @@ public class DemoListFragment extends Fragment implements
 					@Override
 					public BaseCellHolder cellHolder(View cellView) {
 						// TODO Auto-generated method stub
-						return new AnswerCellHolder(cellView);
+						return new DemoCellHolder(cellView);
 					}
 				});
 		listView.setAdapter(adapter);
